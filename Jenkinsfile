@@ -1,11 +1,11 @@
 pipeline {
     agent any
-
-    stages {
-        environment {
+     environment {
          // Замените на реальный адрес Nexus и имя raw-репозитория
             NEXUS_URL = 'http://localhost:8081/repository/repo2'
         }
+    stages {
+       
         stage('Build') {
             steps {
                 
