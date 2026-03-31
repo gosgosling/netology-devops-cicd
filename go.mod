@@ -1,3 +1,3 @@
-module github.com/dmitriy-tomin/netology-devops-cicd
+module github.com/netology-code/sdvps-materials
 
-go 1.17
+go 1.20
