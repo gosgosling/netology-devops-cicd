@@ -3,8 +3,8 @@ pipeline {
 
     stages {
         environment {
-        // Замените на реальный адрес Nexus и имя raw-репозитория
-        NEXUS_URL = 'http://localhost:8081/repository/repo2'
+         // Замените на реальный адрес Nexus и имя raw-репозитория
+            NEXUS_URL = 'http://localhost:8081/repository/repo2'
         }
         stage('Build') {
             steps {
